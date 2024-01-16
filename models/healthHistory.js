@@ -60,13 +60,6 @@ const HealthHistorySchema = new Schema({
     allergies: String,
     pregnant: String,
     medications: String,
-    consent: {
-        glutes: Boolean,
-        innerThighs: Boolean,
-        abdomen: Boolean,
-        chest: Boolean,
-        areasToAvoid: String,
-    },
     privacyPolicy: {type: Boolean, required: [true, 'privacy policy left unchecked']},
     sourceOfReferral: String
 })
